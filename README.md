@@ -2,8 +2,8 @@
 
 A lightweight desktop GUI (built with Python `tkinter`) for predicting the **ultimate bearing capacity (Q<sub>max</sub>)** of piles using an **Physics-Guided Neural Network (PGNN)** surrogate model trained on geotechnical site-investigation data.
 
-This tool accompanies the research draft *"[A Physics-Guided Machine Learning Approach for Estimating the Uplift Capacity of 
-Driven Piles: Bridging the Gap Between Accuracy and Physical Consistency ]"* and is provided for reproducibility, demonstration, and inference on new pile design cases.
+This tool accompanies the research draft *" A Physics-Guided Machine Learning Approach for Estimating the Uplift Capacity of 
+Driven Piles: Bridging the Gap Between Accuracy and Physical Consistency "* and is provided for reproducibility, demonstration, and inference on new pile design cases.
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -20,10 +20,10 @@ Given seven geotechnical and geometric design parameters, the trained PGNN model
 | Unit weight of soil | γt | Total/bulk unit weight | kN/m³ |
 | Effective vertical stress | σv' | In-situ effective overburden stress | kPa |
 | Friction angle | ϕ | Soil internal friction angle | ° |
-| SPT blow count | N_spt | Standard Penetration Test resistance | – |
+| SPT blow count | Nspt | Standard Penetration Test resistance | – |
 | Pile embedment length | L | Length of pile in the ground | m |
 | Pile diameter | D | Pile shaft diameter | m |
-| Shaft surface area | A_s | Total lateral shaft surface area | m² |
+| Shaft surface area | As | Total lateral shaft surface area | m² |
 
 **Output:** Predicted ultimate pile capacity, Q<sub>max</sub> (kN).
 
